@@ -12,8 +12,7 @@ import qacinemasystem.Ticket;
     // Constructor
      
     public CinemaSystem(){};
-        
-    
+           
     // The calendar is created to get the current day of the week, which is used to calcuate the Wednesday discount and formatted. 
     
     Calendar systemCalendar = Calendar.getInstance();   
@@ -28,11 +27,9 @@ import qacinemasystem.Ticket;
     
     // Java's calendar system returns the day of the week as an int, Sunday = 1 Saturday = 7 etc.
     
-    int getDayOfTheWeekAsInt(){
-    
-              
-        return DayOfWeekInt;
+    int getDayOfTheWeekAsInt(){            
         
+      return DayOfWeekInt;        
     }
        
     // A vector is created for the amount of each ticket type bought, and the costs of each ticket vector calcuated for a total price.
